@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Desktop.Core", "Sales
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Desktop.Data", "Sales.Desktop.Data\Sales.Desktop.Data.csproj", "{0D43E0A0-0C7F-406E-BB86-C4748E79E8D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2493E7A7-D1B5-4F35-A26B-AEF01D68F4A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop Client", "Desktop Client", "{AFCCC5DA-C4B3-4F3B-A941-1824C4BFA0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7966152A-844C-4FF1-AD5D-38E891F03B78} = {AFCCC5DA-C4B3-4F3B-A941-1824C4BFA0CB}
+		{1B62D8FD-4650-4240-9C39-992018BDB35F} = {AFCCC5DA-C4B3-4F3B-A941-1824C4BFA0CB}
+		{0D43E0A0-0C7F-406E-BB86-C4748E79E8D1} = {AFCCC5DA-C4B3-4F3B-A941-1824C4BFA0CB}
 	EndGlobalSection
 EndGlobal
